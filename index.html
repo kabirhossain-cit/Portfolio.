@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- ================ animate css link =========================== -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- ================ slick slider css link ======================== -->
+    <link rel="stylesheet" href="css/slick.css">
     <!-- ================ bootstrap css link ======================== -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- ================ style css link ============================= -->
@@ -82,13 +84,13 @@
               <h2>About Me</h2>
           </div>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <div class="left wow slideInLeft">
                 <img src="images/about.jpg" alt="profile-1">
             </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right wow slideInRight">
+            <div class="col-lg-6 col-md-6">
+              <div class="right wow slideInRight ">
                 <h6> I'm Kabir and I'm a <span class="typed"></span> </h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores voluptatum ad, laborum hic alias neque eaque provident magni culpa rem eum odit? Aut repellendus nostrum adipisci officia perspiciatis, hic incidunt esse beatae accusamus. Soluta quos dolor, sapiente incidunt officia hic ut illo commodi cumque delectus facere, sint velit vero culpa reprehenderit ipsa expedita possimus similique pariatur dignissimos? Excepturi, nam.voluptatum repudiandae harum non.</p>
                 <a class="btn2" href="#">Download CV</a>
@@ -105,8 +107,8 @@
               <div class="heading2">
                 <h2>My Services</h2>
             </div>
-            <div class="row">
-              <div class="col-lg-4">
+            <div class="row services-slider">
+              <div class="col-lg-4 col-md-4">
                 <div class="services-item wow slideInLeft">
                   <div class="item-content text-center">
                       <i class="fa fa-paint-brush"></i>
@@ -115,7 +117,7 @@
                   </div>
               </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <div class="services-item wow slideInDown">
                   <div class="item-content text-center">
                       <i class="fa fa-line-chart "></i>
@@ -124,8 +126,35 @@
                   </div>
               </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <div class="services-item wow slideInRight">
+                  <div class="item-content text-center">
+                      <i class="fa fa-code"></i>
+                  <h2>Graphics Design</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="services-item">
+                  <div class="item-content text-center">
+                      <i class="fa fa-paint-brush"></i>
+                  <h2>Web Design</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="services-item">
+                  <div class="item-content text-center">
+                      <i class="fa fa-line-chart "></i>
+                  <h2>Web Development</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="services-item">
                   <div class="item-content text-center">
                       <i class="fa fa-code"></i>
                   <h2>Graphics Design</h2>
@@ -146,14 +175,14 @@
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <div class="skills-item1">
+          <div class="skills-item1 wow fadeInLeft"data-wow-duration="1s" data-wow-delay=".5s">
             <h6>My creative skills & experiences.</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
             <a class="btn3 " href="#">Read More</a>
         </div>
         </div>
         <div class="col-lg-6">
-          <div class="skill-item2">
+          <div class="skill-item2 wow fadeInRight"data-wow-duration="1s" data-wow-delay=".5s">
                   <div class="progress-main">
                       <div class="progress1">
                           <span>HTML</span> <span class="percentage">90%</span>
@@ -199,18 +228,18 @@
           <div class="heading4">
               <h2>My Teams</h2>
           </div>
-          <div class="row">
+          <div class="row team-slider">
             <div class="col-lg-4">
-              <div class="team-item wow slideInLeft">
+              <div class="team-item wow slideInDown">
                 <div class="item-content">
-                    <img src="images/team1.jpg" alt="profile-2.jpeg">
+                  <img src="images/team1.jpg" alt="profile-2.jpeg">
                 <h4>Mahadi tahsan</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             </div>
             <div class="col-lg-4">
-              <div class="team-item wow slideInDown">
+              <div class="team-item wow slideInRight">
                 <div class="item-content">
                     <img src="images/team2.jpg" alt="profile-3">
                 <h4>Tusher Alom</h4>
@@ -219,7 +248,7 @@
             </div>
             </div>
             <div class="col-lg-4">
-              <div class="team-item wow slideInRight">
+              <div class="team-item ">
                 <div class="item-content">
                     <img src="images/team3.jpg" alt="profile-4">
                 <h4>Siyam Ahmed</h4>
@@ -227,7 +256,35 @@
                 </div>
             </div>
             </div>
-          </div>
+            <div class="col-lg-4">
+              <div class="team-item ">
+                <div class="item-content">
+                  <img src="images/team1.jpg" alt="profile-2.jpeg">
+                <h4>Mahadi tahsan</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="team-item">
+                <div class="item-content">
+                    <img src="images/team2.jpg" alt="profile-3">
+                <h4>Tusher Alom</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="team-item wow slideInLeft">
+                <div class="item-content">
+                    <img src="images/team3.jpg" alt="profile-4">
+                <h4>Siyam Ahmed</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div>
 </section>
 <!--============================== My teams end ========================= -->
 
@@ -241,7 +298,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-12">
-          <div class="left-contact-info wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+          <div class="left-contact-info wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="row">
               <div class="col-lg-12 col-md-6">
                 <div class="left-header">
@@ -291,7 +348,7 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-2 col-md-12">
-          <div class="contact-form wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+          <div class="contact-form wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <form action="#" method="POST">
               <div class="row">
                 <div class="col-lg-6">

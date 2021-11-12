@@ -71,6 +71,24 @@ $(window).on('load',function(){
 // ===============================  slider  start =============================
 
 
+$('.services-slider').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	arrows:false,
+	centerMode:true,
+	centerPadding: false,
+  });
+$('.team-slider').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	arrows:false,
+	centerMode:true,
+	centerPadding: false,
+  });
 
 
 // ===============================  slider  end =============================

@@ -5,8 +5,8 @@
 /* ======================= extra small device ================ */
 /* ======================= extra small device ================ */
 /* ======================= extra small device ================ */
-@media(max-width:991px){
-    .container{
-        padding: 0 150px;
+@media(max-width:575.98px){
+    .navbar-brand span{
+        width: 100px;
     }
 }
